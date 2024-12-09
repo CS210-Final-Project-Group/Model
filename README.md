@@ -50,25 +50,6 @@ pip install -r requirements.txt
 
 ---
 
-### 5. Configuring the Python Code
-To properly run the project, you need to make the following updates in the Python code:
-
-1. **MySQL Configuration**: Provide the correct host, username, and password in the `db_config` dictionary to successfully connect to your MySQL database.
-   ```python
-   db_config = {
-       'host': 'your_mysql_host',
-       'user': 'your_mysql_username',
-       'password': 'your_mysql_password',
-       'database': 'your_database_name'
-   }
-   ```
-2. **File Path for CSV**: Update the `csv_file` variable in the `create_database_and_table` function to the location where you saved the CSV file.
-   ```python
-   csv_file = "path_to_your_downloaded_csv_file.csv"
-   ```
-
----
-
 ### 6. Running Jupyter Notebook
 Follow these steps to open and execute the project notebook:
 
@@ -79,16 +60,6 @@ Follow these steps to open and execute the project notebook:
 
 2. Once the server starts, a browser window will open showing the file directory.
 
-3. Navigate to the project folder and open the **`crypto.ipynb`** file.
+3. Navigate to the project folder and open the **`project.ipynb`** file.
 
 4. Execute the notebook cell by cell to process the data and evaluate the model.
-
----
-
-### Repository Structure
-- **`crypto.ipynb`**: The main Jupyter Notebook for analyzing and visualizing cryptocurrency data.
-- **`requirements.txt`**: Contains all the necessary dependencies for this project.
-- **`README.md`**: Instructions and documentation for setting up and running the project.
-- **`BTC_7D_graph_coinmarketcap.csv`**: Sample csv file for testing.
-
----
