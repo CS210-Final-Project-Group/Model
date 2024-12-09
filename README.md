@@ -2,8 +2,7 @@
 
 ## Project Proposal
 
-### NAME = "Ewan Jee"
-### COLLABORATORS = "Rushi Patel"
+### NAME = "Ewan Jee, Rushi Patel"
 
 ### Project Proposal
 ### PARTICIPANTS
