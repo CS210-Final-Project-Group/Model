@@ -12,8 +12,8 @@
     tailor their products to meet individual needs, optimize pricing strategies, and improve
     customer satisfaction.
 
-### Dataset
-    -  The dataset can be accessed from Kaggle: https://www.kaggle.com/datasets/ravalsmit/customer-segmentation-data/data
+### 1. Dataset
+The dataset can be accessed from Kaggle: https://www.kaggle.com/datasets/ravalsmit/customer-segmentation-data/data
 
 
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ---
 
-### 6. Running Jupyter Notebook
+### 5. Running Jupyter Notebook
 Follow these steps to open and execute the project notebook:
 
 1. Start the Jupyter Notebook server by running:
